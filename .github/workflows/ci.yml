@@ -1,41 +1,30 @@
+---
 name: Deploy MkDocs site to GitHub Pages
-
-# Запускать воркфлоу при пуше в ветку main
 on:
   push:
     branches:
-      - main # Или master, если это ваша основная ветка
-
-# Разрешения для GITHUB_TOKEN для деплоя на GitHub Pages
+      - main
 permissions:
   contents: read
   pages: write
   id-token: write
-
-# Разрешить только один одновременный деплой, отменяя предыдущие запуски
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
-
 jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # URL будет выведен в логах Actions
-    runs-on: ubuntu-latest # Использовать свежую Ubuntu
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code # Шаг 1: Скачать код репозитория
+      - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Set up Python # Шаг 2: Установить Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.x # Использовать последнюю версию Python 3
-
-      - name: Install dependencies # Шаг 3: Установить зависимости из requirements.txt
+          python-version: 3.x
+      - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Build and Deploy # Шаг 4: Собрать сайт и задеплоить на gh-pages
-        # Использует встроенную команду gh-deploy, которая собирает сайт
-        # и автоматически коммитит результат в ветку gh-pages
+      - name: Build and Deploy
         run: mkdocs gh-deploy --force --clean --verbose
