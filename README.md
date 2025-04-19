@@ -24,6 +24,7 @@
 
 *   **GitHub Pages:** https://antimortine.github.io/zero-token-book/ (предпочтительно из-за хорошего форматирования)
 *   **Fanfics.me:** https://fanfics.me/fic221838
+*   **Author.Today:** https://author.today/u/antimortine/works
 
 Комментарии, оценки и другая активность приветствуются на этих платформах!
 
@@ -33,8 +34,7 @@
 
 Вы можете свободно делиться (копировать и распространять) этим произведением в некоммерческих целях при условии указания авторства и без создания производных произведений.
 
-## Обратная связь
-
-Если у вас есть вопросы или отзывы, вы можете оставить комментарии на Fanfics.me.
-
----
+## Контакты
+- GitHub: [@Antimortine](https://github.com/Antimortine)
+- Website/Portfolio: [antimortine.github.io](https://antimortine.github.io/)
+- LinkedIn: [Андрей Копнин](https://www.linkedin.com/in/andrey-kopnin-9451091b1/)
