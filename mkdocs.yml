@@ -24,6 +24,7 @@ theme:
     - navigation.sections # Группировка страниц в боковой панели
     - navigation.expand # Автоматически разворачивать активные разделы
     - navigation.top # Кнопка "Наверх"
+    - navigation.footer  # Это может включать нижнюю навигацию Next/Prev
     - search.suggest # Подсказки при поиске
     - search.highlight # Подсветка найденных слов
     - content.code.annotate # Возможность добавлять аннотации к коду
