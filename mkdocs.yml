@@ -19,7 +19,7 @@ theme:
     primary: teal   # Основной цвет акцентов
     accent: purple  # Второстепенный цвет акцентов
   features:
-    - navigation.tabs # Показать разделы верхнего уровня как вкладки
+    # - navigation.tabs # Показать разделы верхнего уровня как вкладки
     # - navigation.tabs.sticky # Сделать вкладки "липкими" при прокрутке
     - navigation.sections # Группировка страниц в боковой панели
     - navigation.expand # Автоматически разворачивать активные разделы
