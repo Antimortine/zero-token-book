@@ -44,10 +44,11 @@ jobs:
       - name: Check MkDocs Plugin Entry Points
         run: |
           echo "Checking registered mkdocs.plugins entry points..."
+          # Используем Python 3.8+ importlib.metadata
           python -c "import sys; from importlib.metadata import entry_points; discovered_plugins = entry_points(group='mkdocs.plugins'); print('Found entry points:') if discovered_plugins else print('No entry points found.'); [print(f'- {ep.name} = {ep.value}') for ep in discovered_plugins if discovered_plugins]"
           echo "Attempting direct import..."
-          python -c "try: from mkdocs_static_i18n.plugin import I18n; print('OK: mkdocs_static_i18n imported successfully.') except ImportError as e: print(f'FAIL: Could not import mkdocs_static_i18n: {e}'); sys.exit(1)"
-
+          # Добавлен import sys;
+          python -c "import sys; try: from mkdocs_static_i18n.plugin import I18n; print('OK: mkdocs_static_i18n imported successfully.') except ImportError as e: print(f'FAIL: Could not import mkdocs_static_i18n: {e}'); sys.exit(1)"
       # Шаг 5 (ИЗМЕНЕН): Сборка сайта (отдельно от деплоя)
       - name: Build MkDocs site
         run: python -m mkdocs build --verbose --clean
