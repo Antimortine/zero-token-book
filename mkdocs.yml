@@ -1,11 +1,17 @@
 site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
-site_url: "https://Antimortine.github.io/zero-token-book"
-site_author: "Antimortine"
-site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
+nav:
+  - 'Введение': 'ru/index.md'
+  - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
 
-repo_url: "https://github.com/Antimortine/zero-token-book/"
-repo_name: "zero-token-book"
-edit_uri: ""
+plugins:
+  - search
+  - i18n: # Используем имя 'i18n'
+      languages:
+        - ru
+        - en
+      default_language: ru
+      docs_structure: folder
+      # reconfigure_material: true # Пока уберем
 
 theme:
   name: material
@@ -42,11 +48,10 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# Plugins Configuration - Explicitly listing plugins WITHOUT inline config for i18n
-plugins:
-  - search
-  - i18n # Just the name
+repo_url: "https://github.com/Antimortine/zero-token-book/"
+repo_name: "zero-token-book"
+edit_uri: ""
 
-# NO external languages: section
-# NO extra: section
-# NO nav: section (MkDocs will build nav from file structure)
+site_url: "https://Antimortine.github.io/zero-token-book"
+site_author: "Antimortine"
+site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
