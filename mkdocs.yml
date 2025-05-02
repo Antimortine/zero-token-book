@@ -1,29 +1,23 @@
-# Возвращаем обязательный site_name
 site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
-# Возвращаем базовую навигацию для теста
 nav:
   - 'Введение': 'ru/index.md'
   - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
 
-# Возвращаем конфигурацию плагинов, но только с НЕОБХОДИМЫМИ для i18n опциями
 plugins:
   - search
-  - i18n: # Используем имя 'i18n'
-      # Обязательные опции для плагина i18n:
+  - i18n:
+      # ЭКСПЕРИМЕНТ: Передаем языки как ключи словаря
       languages:
-        - ru
-        - en
+        ru: Русский # Значение здесь может быть не важно, попробуем имя языка
+        en: English
       default_language: ru
-      docs_structure: folder # Указываем структуру папок
-      # Остальные опции (reconfigure_material и т.д.) пока уберем для чистоты теста
+      docs_structure: folder
+      reconfigure_material: true # Вернем эту опцию
 
-# ОСТАЛЬНЫЕ НАСТРОЙКИ (theme, markdown_extensions, repo_url и т.д.)
-# МОЖНО ВЕРНУТЬ ИЗ ТВОЕГО ПОЛНОГО КОНФИГА, ОНИ НЕ ДОЛЖНЫ МЕШАТЬ
-# УБЕДИСЬ, ЧТО ВНЕШНЕЙ СЕКЦИИ languages: И extra: НЕТ!
-
+# Остальные настройки
 theme:
   name: material
-  language: ru # Язык по умолчанию для темы
+  language: ru
   palette:
     scheme: slate
     primary: teal
@@ -63,3 +57,5 @@ edit_uri: ""
 site_url: "https://Antimortine.github.io/zero-token-book"
 site_author: "Antimortine"
 site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
+
+# Внешние секции languages: и extra: все еще убраны!
