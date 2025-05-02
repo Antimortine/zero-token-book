@@ -62,6 +62,7 @@ plugins:
           build: true
       # default_language: ru
       docs_structure: folder
+      fallback_to_default: false
       reconfigure_material: true
       reconfigure_navigation: true
 
