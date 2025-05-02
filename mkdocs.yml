@@ -1,4 +1,3 @@
 site_name: Test Zero Token Build
 plugins:
-  - search
   - static-i18n
