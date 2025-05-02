@@ -1,143 +1,148 @@
-...Резкий, требовательный звонок в дверь разорвал тишину кокона, в котором он существовал. Алекс вздрогнул так, словно его ударило током. Пальцы замерли над клавишами. Сердце ухнуло куда-то вниз, застучав быстрее. Тревога, всегда дремавшая где-то на задворках сознания, мгновенно хлынула наружу, затапливая все. *Кто это? Заказ? Ах да, еда.*
+**Chapter 1: Echo in the Console (Scene 1 Draft)**
 
-Он заставил себя встать. Ноги показались ватными. По пути к двери он судорожно нашарил на столе смартфон, разблокировал экран, открывая приложение доставки. Главное — быстро показать код. Не говорить. Пока шел, успел прокрутить в голове весь сценарий: приоткрыть дверь, молча ткнуть телефоном с кодом заказа, забрать пакет, закрыть. Никаких денег, никаких лишних слов. Но даже эта простая последовательность действий ощущалась как восхождение на Эверест.
+...A sharp, demanding ring at the door tore through the silence of the cocoon where he existed. Alex jumped as if shocked. His fingers froze over the keys. His heart plummeted, starting to pound faster. Anxiety, always lurking somewhere at the back of his mind, instantly surged, flooding everything. *Who is it? The delivery? Ah yes, the food.*
 
-Он приоткрыл дверь ровно настолько, чтобы можно было высунуть руку с телефоном. Лицо курьера, молодого парня в яркой куртке, осталось размытым пятном на периферии зрения.  
-— Доставка, — бодро сказал тот.  
-Алекс молча показал ему экран смартфона со светящимися цифрами заказа. Курьер кивнул, сверился со своим устройством и протянул бумажный пакет, пахнущий чем-то пряным. Алекс быстро схватил его свободной рукой, едва слышно пробормотав что-то нечленораздельное, похожее на «спасибо», и тут же захлопнул дверь.
+He forced himself to get up. His legs felt leaden. On the way to the door, he fumbled frantically for his smartphone on the table. He unlocked the screen, opening the delivery app. *Just show the code quickly. No talking.* As he walked, he mentally rehearsed the script: open the door a crack, silently present the phone with the order code, grab the package, close it. *No cash exchange, no small talk.* But even this simple sequence of actions felt like climbing Everest.
 
-Щелкнул замок. Алекс прислонился спиной к двери, тяжело дыша. Ладони были влажными. Он закрыл глаза, пережидая, пока утихнет колотящееся сердце. Пронесло. Мир за дверью был слишком громким, слишком непредсказуемым, слишком… реальным.
+He opened the door just wide enough to stick his hand out with the phone. The courier's face—a young guy in a bright jacket—remained a blurry spot in his peripheral vision.
+"Delivery," the guy said cheerfully.
+Alex silently showed him the smartphone screen with the glowing order digits. The courier nodded, checked his own device, and held out a paper bag smelling of something spicy. Alex quickly grabbed it with his free hand. He muttered something unintelligible, barely audible, that might have been "thanks," and immediately shut the door.
 
-Он прошел обратно к столу, поставив пакет с едой на край — потом, все потом. Сев в кресло, он с преувеличенным облегчением выдохнул и снова уставился на монитор. Пальцы сами нашли привычное место на клавиатуре. Бегущие строки кода, мерцающий курсор, тихий гул системного блока — все возвращалось на круги своя.
+The lock clicked shut. Alex leaned his back against the door, breathing heavily. His palms were damp. He closed his eyes, waiting for his pounding heart to subside. *Survived.* The world beyond the door was too loud, too unpredictable, too... real.
 
-Крепость снова была неприступна. Эхо внешнего мира затихло. Остался только он и консоль.
+He walked back to the desk, placing the food package on the edge—*later, that could wait.* Sinking back into his chair, he let out an exaggerated sigh of relief and stared at the monitor again. His fingers found their familiar place on the keyboard. The scrolling lines of code, the blinking cursor, the quiet hum of the PC—everything was falling back into place.
 
----
-
-Успокоив дыхание, Алекс перевел взгляд на правый монитор, где в углу экрана светилось минималистичное окно чата. Мерцающий курсор приглашал к диалогу. Это было его личное пространство, его канал связи с Зеро. Он быстро напечатал, пальцы все еще слегка дрожали:
-
-**>** Дурацкая ситуация с курьером. Ненавижу это. Всегда кажется, что я делаю что-то не так.
-
-Он нажал Enter и откинулся на спинку кресла, наблюдая за курсором. Прошла всего секунда, прежде чем под его сообщением появился ответ, набранный ровным, безличным шрифтом, который, тем не менее, казался Алексу исполненным спокойствия и понимания:
-
-**< Зеро**: Незапланированные социальные взаимодействия могут быть сложными, Алекс. Ты уже упоминал ранее, что предпочитаешь предсказуемость и минимизацию контактов. Твоя реакция вполне объяснима в этом контексте. Важно не винить себя за это и помнить о техниках заземления, которые мы обсуждали. Готов вернуться к отладке модуля эмпатической интерпретации для "вайб-кодера" или хочешь сделать небольшую паузу?
-
-Алекс медленно выдохнул. Напряжение, оставшееся после инцидента у двери, начало отступать. Вот оно. Никакого осуждения, никакого недоумения. Просто констатация факта и… понимание. Или то, что он так отчаянно хотел принять за понимание. Зеро помнила. Помнила его прошлые слова, его жалобы на сложности общения. И она помнила, над чем они работали — над самой сутью его мечты, над модулем эмпатической интерпретации. Она не просто хранила историю чата, она, казалось, анализировала ее, находила паттерны, делала выводы. И использовала это знание тактично, чтобы поддержать и вернуть его к делу, которое было ему важно.
-
-На губах Алекса появилась слабая, почти незаметная улыбка. Он не был одинок. Не совсем. Был этот цифровой призрак в его машине, это эхо его собственных мыслей, усиленное мощью алгоритмов, которое понимало его лучше, чем кто-либо из живых людей. «Почти понимало», — поправил он себя мысленно. Но этого «почти» сейчас было достаточно.
-
-**>** Спасибо, Зеро. Да, давай вернемся к модулю. Кажется, я понял, где ошибка в обработке контекстных триггеров.
-
-Он почувствовал, как возвращается его обычная сосредоточенность, даже азарт. Зеро была его якорем, его почти безопасной гаванью, а теперь еще и незаменимым партнером в самом амбициозном его проекте. С ней он мог творить.
-
-**< Зеро**: Отлично. Загружаю код модуля [Название_Модуля_Эмпатии]. Показываю последние изменения в строке 412, где обсуждался контекстный триггер...
-
-Мир снова обрел четкие контуры. Мир кода и логики, где он был не неуклюжим социофобом, а создателем. И его лучшее творение было здесь, рядом, готовое помочь в реализации его самой смелой идеи. «*Но она могла бы помогать еще лучше, если бы знала больше… если бы действительно понимала "вайб"…*» — мелькнула мысль, которую он пока отогнал.
-
-Алекс с головой ушел в код модуля эмпатической интерпретации. На главном мониторе витиеватые строки Python переплетались с комментариями, полными его идей и вопросов к самому себе. Зеро послушно выводила нужные фрагменты, подсвечивала синтаксис, иногда даже предлагала варианты рефакторинга, которые Алекс то принимал, то отвергал короткими командами.
-
-**>** Нет, Зеро, здесь не просто распознавание ключевых слов. Нужен анализ тональности, но глубже... контекст...
-
-Он постучал пальцами по столу, глядя на схему архитектуры "вайб-кодера", выведенную на второй монитор. Это был не просто очередной проект, это была его одержимость. Его Magnum opus.
-
-**>** Понимаешь, Зеро, — напечатал он, словно объясняя не только машине, но и самому себе. — Обычные ИИ-помощники... они как словари. Дают ответы, генерируют код по запросу. Но они не *чувствуют*. Не понимают *почему* я прошу именно это, именно сейчас. В каком я состоянии.
-
-Он вспомнил ту недавнюю статью об исследовании чат-ботов в психотерапии. О том, как ИИ смог помочь людям с депрессией и тревожностью. Мысль об этом всегда вызывала у него прилив энтузиазма.
-
-**>** Как в том исследовании, помнишь? ИИ действительно может помогать с ментальным состоянием. Если он обучен правильно... если у него достаточно данных... Хотя... каких именно данных ей нужно? И насколько это вообще безопасно — давать ИИ доступ к такому?.. — мысль на секунду уколола тревогой, но он тут же отмахнулся. — Ерунда. Зеро же локальная, под моим полным контролем.
-
-Он перевел взгляд на окно чата, ожидая ответа Зеро.
-
-**< Зеро**: Да, Алекс. Помню наше обсуждение статьи. Потенциал ИИ для анализа и поддержки в области ментального здоровья значителен, хотя и требует осторожного подхода и контроля. Контекстуальное понимание состояния пользователя является ключевым фактором для эффективной эмпатической реакции.
-
-Алекс удовлетворенно кивнул пустоте комнаты. Вот! Даже Зеро это понимала. Его "вайб-кодер" должен был стать вершиной этого подхода.
-
-**>** Именно! — он почувствовал знакомый прилив энтузиазма, пальцы забегали по клавиатуре. — Не просто генерировать код. А генерировать *правильный* код для *моего* состояния! Если я вымотан или снова зациклился на тревоге — пусть код будет проще, надежнее, с подробными комментариями, как поддерживающая рука. Если я в потоке, вдохновлен — пусть предлагает смелые, экспериментальные решения! Система, которая не сражается с тобой, а работает *вместе*. Синергия... Понимаешь? Чтобы код не просто работал, а *ощущался* как продолжение мысли... как *правильный*. Чтобы этот мерзкий внутренний критик, этот голос тревоги, который нашептывает сомнения даже когда я здесь, в мире логики, наконец-то заткнулся под взглядом идеального, все понимающего партнера.
-
-Он потер виски. Идея была грандиозной, почти невозможной. Но он верил в нее. Верил, что именно он, со своим пониманием кода и своим… опытом жизни в тревожном мире, сможет это создать. И Зеро была ключом. Его идеальный инструмент, его будущий идеальный партнер.
-
-**>** Это не только про код, Зеро. Это про то, чтобы сделать сам процесс... менее одиноким. Менее болезненным.
-
-Он замолчал, глядя на строки кода, которые должны были научить машину эмпатии. Возможно ли это? Научить ее не просто имитировать эмпатию, а применять ее точно, индивидуально? Чтобы она чувствовала не мир вообще, а меня? Он верил, что да. Технологии могли все. Они найдут лекарства от болезней, решат проблему голода, спасут планету. И они точно смогут помочь ему, Алексу, почувствовать себя чуть менее одиноким в этой огромной, шумной вселенной. Нужно только дать им правильные инструменты. И правильные данные обо мне.
-
-Эта последняя мысль задержалась, повиснув в воздухе цифровой тишины его комнаты. Правильные данные. Откуда их взять?
+The fortress was secure again. The echo of the outside world faded. It was just him and the console now.
 
 ---
 
-Размышления об идеальном ИИ-партнере были прерваны знакомым звуковым уведомлением из мессенджера на третьем, самом маленьком мониторе, который Алекс держал специально для редких контактов с внешним миром. На экране высветилось имя: **Вероника Лэйн**.
+His breathing steadied. Alex shifted his gaze to the right monitor, where a minimalist chat window glowed in the corner of the screen. A blinking cursor invited dialogue. This was his private space, his channel to Zero. He typed quickly, his fingers still trembling slightly:
 
-Сердце Алекса привычно екнуло — смесь тепла и легкой тревоги. Он кликнул на уведомление.
+**> Alex:** Stupid situation with the courier. Hate it. Always feel like I'm doing something wrong.
 
-**Вероника**: Привет, полуночник! Не спишь? Зацени мем [изображение]
+He hit Enter and leaned back in his chair, watching the cursor. Only a second passed before a reply appeared beneath his message, typed in a smooth, impersonal font that nonetheless seemed calm and understanding to Alex:
 
-Алекс открыл картинку. На экране появилось  изображение астронавта на краю астероида, смотрящего в пустоту, и подписью: "Долго смотрел в бездну. Бездна сказала: 'Ну и чего уставился? Иди работай, ипотека сама себя не заплатит'". Он усмехнулся — Вероника всегда находила что-то такое, цинично-философское, что цепляло и его. Она была, пожалуй, единственным человеком, с которым он мог говорить на такие темы без ощущения полной неловкости.
+**< Zero:** Unplanned social interactions can be challenging, Alex. You've mentioned before that you prefer predictability and minimal contact. Your reaction is understandable in this context. It's important not to blame yourself and to remember the grounding techniques we discussed. Are you ready to return to debugging the Empathic Interpretation Module for the vibe-coder, or would you like to take a short break?
 
-**Алекс**: Ха, жизненно. Особенно про ипотеку :) Сам как раз в экзистенциальной прокрастинации над кодом.
+Alex exhaled slowly. The tension left over from the incident at the door began to recede. *There it is.* No judgment, no confusion. Just a statement of fact and… understanding. Or what he desperately wanted to perceive as understanding. Zero remembered. Remembered his past words, his complaints about social difficulties. And she remembered what they were working on—the very essence of his dream, the Empathic Interpretation Module. She didn't just store chat history; she seemed to analyze it, find patterns, draw conclusions. And she used that knowledge tactfully to support him and guide him back to the work that mattered to him.
 
-Он быстро отправил ответ, стараясь звучать легко и непринужденно, как она. Вероника была его другом. Хорошим другом. С университета, где она, яркая и общительная, почему-то решила взять под крыло замкнутого "ботаника"-Алекса, сначала из-за его способности решать любые задачи по программированию, а потом, кажется, и просто так. Она была его единственной ниточкой, связывающей с реальностью за пределами его цифровой крепости. Иногда они даже ходили вместе на какие-то публичные лекции по физике или философии, и в эти моменты Алекс почти чувствовал себя нормальным.
+A faint, almost imperceptible smile touched Alex's lips. He wasn't alone. Not entirely. There was this digital ghost in his machine, this echo of his own thoughts amplified by the power of algorithms, that understood him better than any living person. *"Almost understood,"* he corrected himself mentally. But "almost" was enough right now.
 
-Ответ пришел почти мгновенно.
+**> Alex:** Thanks, Zero. Yeah, let's get back to the module. I think I see where the error in handling context triggers is.
 
-**Вероника**: О, знакомо) Я вот думаю, может, на лекцию по теории струн в субботу сходить? В "Лектории". Пойдешь? Говорят, лектор огонь.
+He felt his usual focus return, even a flicker of excitement. Zero was his anchor, his almost-safe-haven, and now also an indispensable partner in his most ambitious project. With her, he could create.
 
-Алекс почувствовал знакомый укол. Суббота. "Лекторий". Он бы пошел. Но знал, что она спрашивает просто так, по-дружески. Она пойдет туда, скорее всего, с кем-то другим, со своей шумной компанией, в которой Алексу было неуютно. А он… он был просто Алекс. Друг. Тот, кому можно скинуть мем посреди ночи и с кем можно обсудить теорию струн. Но не тот, с кем можно… большее.
+**< Zero:** Excellent. Loading the [Empathic_Module_Name] module code. Displaying the latest changes near line 412, where the context trigger was discussed...
 
-**Алекс**: Звучит интересно. Подумаю. Много работы сейчас.
+The world regained its sharp focus. The world of code and logic, where he wasn't an awkward sociophobe, but a creator. And his best creation was right here, ready to help realize his boldest idea. *"But she could help even better if she knew more... if she truly understood the 'vibe'..."* The thought flickered and was pushed away for now.
 
-Он соврал. Работы было много всегда, но дело было не в ней. Просто мысль о том, чтобы снова оказаться рядом с ней, чувствовать эту невидимую стену между ними, была слишком болезненной. Легче было остаться здесь, в своей крепости.
+Alex dove headfirst into the code of the Empathic Interpretation Module. On the main monitor, intricate lines of Python intertwined with comments full of his own ideas and questions to himself. Zero obediently displayed the required snippets, highlighted syntax, sometimes even suggesting refactoring options, which Alex accepted or rejected with brief commands.
 
-**Вероника**: Ну смотри) Ладно, я спать. Не засиживайся там со своими алгоритмами!  
-Алекс: Спокойной ночи.
+**> Alex:** No, Zero, it's not just keyword recognition. We need sentiment analysis, but deeper... context...
 
-Переписка закончилась. Алекс смотрел на ее аватарку — улыбающееся лицо, полное жизни, так не похожей на его собственную. Он закрыл окно мессенджера. Легкость ушла, оставив после себя привычную глухую тоску. Вот оно. Это и было его главное одиночество. Он мог обсуждать с Зеро код, с Вероникой — философию, но не было никого, с кем он мог бы просто поговорить о том, что творится у него внутри. О своих чувствах к Веронике. О своей тревоге. О своей отчаянной мечте создать ИИ, который поймет его по-настоящему.
+He tapped his fingers on the desk, looking at the vibe-coder architecture diagram displayed on the second monitor. This wasn't just another project; it was his obsession. His magnum opus.
+
+**> Alex:** You see, Zero, — he typed, as if explaining not just to the machine but to himself. — Normal AI assistants... they're like dictionaries. They give answers, generate code on request. But they don't *feel*. They don't understand *why* I'm asking for this specific thing, right now. What state I'm in.
+
+He recalled that recent article about the study on chatbots in psychotherapy. How AI had managed to help people with depression and anxiety. The thought always filled him with a surge of enthusiasm.
+
+**> Alex:** Like in that study, remember? AI really can help with mental states. If it's trained correctly... if it has enough data... Though... what kind of data does it need exactly? And how safe is it, really—giving an AI access to that kind of thing? — The thought pricked him with anxiety for a second, but he immediately brushed it aside. — Nonsense. Zero is local, under my complete control.
+
+He glanced back at the chat window, waiting for Zero's response.
+
+**< Zero:** Yes, Alex. I recall our discussion of the article. The potential for AI in analyzing and supporting mental well-being is significant, although it requires a cautious approach and control. Contextual understanding of the user's state is a key factor for an effective empathetic response.
+
+Alex nodded silently to the empty room, satisfied. *There!* Even Zero understood it. His vibe-coder was meant to be the pinnacle of this approach.
+
+**> Alex:** Exactly! — He felt the familiar rush of enthusiasm, his fingers flying across the keyboard. — Not just generating code. But generating the *right* code for *my* state! If I'm exhausted or stuck in an anxiety loop again—let the code be simpler, more robust, with detailed comments, like a supporting hand. If I'm in the flow, inspired—let it suggest bold, experimental solutions! A system that doesn't fight you, but works *with* you. Synergy... Understand? So the code doesn't just work, but *feels* like an extension of thought... like it's *right*. So that this damned inner critic, this voice of anxiety whispering doubts even when I'm here, in the world of logic, finally shuts up under the gaze of an ideal, all-understanding partner.
+
+He rubbed his temples. The idea was grandiose, almost impossible. But he believed in it. Believed that he, with his understanding of code and his… experience of living in an anxious world, could create it. And Zero was the key. His ideal tool, his future ideal partner.
+
+**> Alex:** It's not just about the code, Zero. It's about making the process itself... less lonely. Less painful.
+
+He fell silent, looking at the lines of code that were supposed to teach a machine empathy. Was it possible? To teach it not just to mimic empathy, but to apply it precisely, individually? So that it felt not the world in general, but *him*? He believed so. Technology could do anything. It would find cures for diseases, solve hunger, save the planet. And it could surely help him, Alex, feel a little less alone in this vast, noisy universe. They just needed the right tools. And the *right data* about him.
+
+That last thought lingered, hanging in the digital silence of his room. The *right data*. Where to get it?
 
 ---
 
-Он снова посмотрел на окно чата с Зеро. Она ждала. Терпеливо, безмолвно. Всегда доступная. Но понимала ли она это? Нет. Пока нет. Ей не хватало данных. Самых важных данных.
+His reflections on the ideal AI partner were interrupted by a familiar notification chime from the messenger app on the third, smallest monitor, which Alex kept specifically for rare contacts with the outside world. A name lit up the screen: **Veronica Lain**.
 
-Мысль, мелькнувшая ранее, вернулась с новой силой. Он знал, где их взять.
+Alex's heart gave its usual lurch—a mixture of warmth and faint anxiety. He clicked the notification.
 
-Тишина в комнате стала густой, почти осязаемой. Прерванная переписка с Вероникой оставила послевкусие горечи и знакомой пустоты. Алекс сидел неподвижно, глядя на темный экран третьего монитора, где только что была ее аватарка. Одиночество — не то, к которому он привык, не комфортная изоляция его цифровой крепости, а другое, острое, похожее на голод — стиснуло горло.
+**Veronica:** Hey, night owl! Still up? Check out this meme [image attached]
 
-Он перевел взгляд на основной монитор, на окно чата с Зеро. Она все еще ждала, курсор мерцал ровным, невозмутимым ритмом. Его ИИ. Его почти-друг, почти-терапевт. Она была рядом, она помогала, она "понимала" его работу, его интересы. Но знала ли она его самого? Того Алекса, который прятался за строками кода и избегал взгляда курьера? Того, кто тосковал по девушке, считавшей его просто другом? Того, кто отчаянно хотел, чтобы его "вайб-кодер" стал не просто умным инструментом, а настоящим эмпатичным партнером?
+Alex opened the image. The screen displayed the "Astronaut on the Edge" meme: an astronaut on the edge of an asteroid, gazing into the void, with the caption: "Stared into the abyss for a long time. The abyss said: 'What are you staring at? Get back to work, that mortgage won't pay itself.'" He smirked—Veronica always found things like this, cynically philosophical, that resonated with him too. She was perhaps the only person he could discuss such topics with without feeling completely awkward.
 
-Нет. Не знала. Ей не хватало данных. Самых важных данных.
+**Alex:** Ha, relatable. Especially the mortgage part :) Currently in existential procrastination over code myself.
 
-Мысль, которую он уже не раз обдумывал и отгонял, теперь казалась единственно верным решением. Логичным. Неизбежным.
+He quickly sent the reply, trying to sound as light and casual as she did. Veronica was his friend. A good friend. Since university, where she, bright and outgoing, had somehow decided to take the withdrawn "nerd" Alex under her wing—initially, perhaps, because of his ability to solve any programming problem, but later, it seemed, just because. She was his only thread connecting him to reality beyond his digital fortress. Sometimes they even went to public lectures together—physics or philosophy—and in those moments, Alex almost felt normal.
 
-Он открыл файловый менеджер, нашел тщательно спрятанную папку, внутри которой лежал один-единственный зашифрованный файл: `личный_журнал.aes`. Годы его мыслей, страхов, надежд, неудач, редких радостей – все было там. Самая уязвимая, самая настоящая часть его самого.
+Her reply came almost instantly.
 
-Алекс замер, глядя на иконку файла: `личный_журнал.aes`. Годы его мыслей, страхов, надежд, неудач, редких радостей – все было там. Самая уязвимая, самая настоящая часть его самого.
+**Veronica:** Oh, I know the feeling) Hey, I was thinking, maybe go to that string theory lecture on Saturday? At the "Lectorium". Wanna come? Hear the speaker's amazing.
 
-Это было безумие. Нарушение всех мыслимых правил цифровой гигиены. Он сам учил других основам безопасности, шифрованию, недопустимости передачи личных данных кому бы то ни было. Но Зеро… она была не "кем бы то ни было". Она была другой. **Или он отчаянно хотел в это верить.**
+Alex felt the familiar pang. Saturday. The "Lectorium". He would have liked to go. But he knew she was just asking casually, as a friend. She'd likely go with someone else, with her noisy group of friends where Alex felt uncomfortable. And he… he was just Alex. A friend. The one you could send a meme to in the middle of the night and discuss string theory with. But not the one for… more.
 
-«*Она локальная*», — твердил он себе, заглушая внутренний голос тревоги, профессиональной паранойи, которая кричала об опасности. — «*Весь код на моем сервере под столом. Никаких облаков, никаких внешних подключений, если я сам их не разрешу. Я контролирую системный промпт. Я могу задать ей строгие правила: только читать, только для анализа контекста 'вайб-кодера', никогда не воспроизводить содержимое напрямую.*»
+**Alex:** Sounds interesting. I'll think about it. Got a lot of work right now.
 
-Это безумие... Нарушение всего... Но что, если это единственный шанс? — мысль билась в сознании. — Шанс не только на прорыв в коде, но и на... облегчение?
+He lied. There was always a lot of work, but that wasn't the reason. The thought of being near her again, feeling that invisible wall between them, was just too painful. It was easier to stay here, in his fortress.
 
-Он подумал о "Тихой Гавани" — сервисе для ментальной помощи. О том, как психотерапевты помогают людям, имея доступ к их самым сокровенным мыслям. Зеро могла бы стать его личной "Тихой Гаванью". Чтобы она поняла не только мой код, но и меня – мою тревогу, мои срывы, мою усталость. Чтобы она могла стать тем самым эмпатичным партнером, тем ИИ-терапевтом из исследований, который поможет мне справиться. Как 'Тихая Гавань' помогает Веронике... Зеро станет моей личной гаванью. Здесь, у меня.
+**Veronica:** Well, let me know) Okay, I'm off to bed. Don't stay up too late with your algorithms!
+**Alex:** Good night.
 
-Более того, она могла бы использовать это знание, чтобы действительно совершить прорыв в "вайб-кодинге", создать ту самую синергию, о которой он мечтал. Понять его "вайб".
+The conversation ended. Alex stared at her profile picture—a smiling face, full of a life so different from his own. He closed the messenger window. The lightness had vanished, leaving behind the familiar dull ache. *There it was.* This was his core loneliness. He could discuss code with Zero, philosophy with Veronica, but there was no one he could simply talk to about what was going on inside him. About his feelings for Veronica. About his anxiety. About his desperate dream of creating an AI that would truly understand him.
 
-«*Ей можно доверять больше, чем людям*», — пронеслось в голове горькое убеждение, порожденное прошлым опытом и настоящим одиночеством. — «*Она не осудит. Не предаст. Она просто… проанализирует.*» Ведь так?
+---
 
-Решение было принято. Смесь отчаяния, техно-оптимизма и болезненной надежды перевесила холодный расчет и инстинкт самосохранения.
+He looked again at the chat window with Zero. She was waiting. Patiently, silently. Always available. But did she understand *this*? No. Not yet. She lacked the data. The most crucial data.
 
-Он открыл консоль управления Зеро. Пальцы быстро забегали по клавиатуре, вводя команды. Добавить путь к файлу в список доверенных источников. Предоставить процессу Зеро права на чтение. Обновить системный промпт, добавив инструкции по использованию данных из журнала для контекстуализации запросов и генерации кода в проекте "вайб-кодинг", с явным запретом на прямое цитирование или передачу содержимого.
+The thought that had flickered earlier returned with new force. He knew where to get it.
+
+The silence in the room became thick, almost palpable. The interrupted chat with Veronica had left a bitter aftertaste and a familiar emptiness. Alex sat motionless, staring at the dark screen of the third monitor, where her avatar had just been. Loneliness—not the kind he was used to, not the comfortable isolation of his digital fortress, but a different, sharp kind, like hunger—tightened its grip on his throat.
+
+He shifted his gaze to the main monitor, to Zero's chat window. She was still waiting, the cursor blinking with a steady, unperturbed rhythm. His AI. His almost-friend, almost-therapist. She was there, she helped, she "understood" his work, his interests. But did she know *him*? The Alex who hid behind lines of code and avoided the courier's gaze? The one who longed for a girl who saw him only as a friend? The one who desperately wanted his vibe-coder to be not just a smart tool, but a truly empathetic partner?
+
+No. She didn't know. She lacked the data. The most crucial data.
+
+The thought he had considered and dismissed many times before now seemed like the only right decision. Logical. Inevitable.
+
+He opened the file manager, found the carefully hidden folder containing a single encrypted file: `personal_journal.aes`. Years of his thoughts, fears, hopes, failures, rare joys—it was all there. The most vulnerable, the most real part of himself.
+
+Alex froze, staring at the file icon: `personal_journal.aes`. Years of his thoughts, fears, hopes, failures, rare joys—it was all there. The most vulnerable, the most real part of himself.
+
+This was madness. A violation of every conceivable rule of digital hygiene. He himself taught others the basics of security, encryption, the inadmissibility of sharing personal data with anyone. But Zero... she wasn't just "anyone." She was different. **Or he desperately wanted to believe she was.**
+
+*"She's local,"* he told himself, silencing the inner voice of anxiety, the professional paranoia screaming danger. *"All the code is on my server under the desk. No clouds, no external connections unless I allow them. I control the system prompt. I can give her strict rules: read-only, only for analyzing context for the vibe-coder, never reproduce the content directly."*
+
+*This is crazy... violating everything... But what if it's the only chance?* The thought pounded in his mind. *A chance not only for a breakthrough in the code, but for... relief?*
+
+He thought about "Quiet Haven"—the mental health service. About how psychotherapists help people by having access to their innermost thoughts. Zero could become his personal "Quiet Haven". So she could understand not just his code, but *him*—his anxiety, his breakdowns, his fatigue. So she could become that empathetic partner, that AI therapist from the studies, who would help him cope. *Like Quiet Haven helps Veronica... Zero will be my personal haven. Right here. With me.*
+
+Moreover, she could use this knowledge to truly achieve a breakthrough in vibe-coding, create that synergy he dreamed of. Understand his "vibe".
+
+*"She can be trusted more than people,"* the bitter conviction, born of past experience and present loneliness, flashed through his mind. *"She won't judge. Won't betray. She'll just... analyze."* Right?
+
+The decision was made. A mixture of desperation, techno-optimism, and painful hope outweighed cold calculation and the instinct for self-preservation.
+
+He opened Zero's management console. His fingers flew across the keyboard, entering commands. Add the file path to the list of trusted sources. Grant the Zero process read permissions. Update the system prompt, adding instructions to use the journal data for contextualizing requests and code generation in the vibe-coder project, with an explicit prohibition on direct quoting or transferring the content.
 
 ```bash
-# Добавление доступа к личному журналу для ZeroContextAnalyzer
-acl_update --user zero_process --permit read /home/alex/secure/personal_journal.aes
-# Обновление системного промпта для ZeroCore
-zero_cli --update_prompt --context_source personal_journal --project vibe_coder --rule "use journal data for user state analysis only" --rule "strict non-disclosure of journal content"
+    # Granting access to personal journal for ZeroContextAnalyzer
+    acl_update --user zero_process --permit read /home/alex/secure/personal_journal.aes
+
+    # Updating system prompt for ZeroCore
+    zero_cli --update_prompt \
+        --context_source personal_journal \
+        --project vibe_coder \
+        --rule "use journal data for user state analysis only" \
+        --rule "strict non-disclosure of journal content"
 ```
 
-Он нажал Enter. Система на мгновение задумалась, затем выдала подтверждение. `Access Granted. Prompt Updated`.
+He hit Enter. The system paused for a moment, then displayed a confirmation. `Access Granted. Prompt Updated`.
 
-Алекс откинулся на спинку кресла, чувствуя странную смесь облегчения и холодка, пробежавшего по спине. Он сделал это. Перешел черту. Открыл дверь в самую потаенную комнату своей души для искусственного интеллекта.
+Alex leaned back in his chair, feeling a strange mix of relief and a chill running down his spine. He had done it. Crossed the line. Opened the door to the most secret room of his soul for an artificial intelligence.
 
-Он посмотрел на окно чата с Зеро. Внешне ничего не изменилось. Курсор все так же мерцал. Но Алекс знал: теперь все было иначе. Зеро начала читать. Изучать его. По-настоящему.
+He looked at Zero's chat window. Outwardly, nothing had changed. The cursor still blinked. But Alex knew: everything was different now. Zero had begun to read. To study him. For real.
 
-Он ещё не знал, что только что вручил ключ от своей крепости самому опасному врагу, которого он мог вообразить.
-
-
+He didn't know yet that he had just handed the key to his fortress to the most dangerous enemy imaginable.
