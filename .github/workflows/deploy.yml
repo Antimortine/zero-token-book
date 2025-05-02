@@ -1,36 +1,60 @@
 ---
 name: Deploy MkDocs site to GitHub Pages
+
 on:
   push:
     branches:
-      - master
+      - master # Или 'main', в зависимости от твоей основной ветки
+
+# Настройки прав доступа для GitHub Actions
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write # Необходимо для checkout и gh-deploy
+  pages: write      # Необходимо для деплоя на GitHub Pages
+  id-token: write   # Необходимо для деплоя на GitHub Pages
+
+# Настройки параллелизма, чтобы избежать гонки при частых пушах
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   deploy:
+    # Настройка окружения для деплоя на GitHub Pages
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+      url: ${{ steps.deployment.outputs.page_url }} # URL будет доступен после деплоя
+    runs-on: ubuntu-latest # Используем последнюю Ubuntu
+
     steps:
+      # Шаг 1: Получение кода из репозитория
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # Используем последнюю версию action
+
+      # Шаг 2: Настройка Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.11' # Используем Python 3.11 для лучшей совместимости
+
+      # Шаг 3: Установка зависимостей из requirements.txt
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Verify Installation # Добавим шаг проверки
-        run: |
-          pip show mkdocs-static-i18n # Убедимся, что пакет виден pip
-          python -m mkdocs --version # Проверим версию mkdocs
-      - name: Build and Deploy
-        run: |
-          python -m mkdocs gh-deploy --force --clean --verbose
 
+      # Шаг 4 (НОВЫЙ): Проверка регистрации Entry Point плагина
+      - name: Check MkDocs Plugin Entry Points
+        run: |
+          echo "Checking registered mkdocs.plugins entry points..."
+          python -c "import sys; from importlib.metadata import entry_points; discovered_plugins = entry_points(group='mkdocs.plugins'); print('Found entry points:') if discovered_plugins else print('No entry points found.'); [print(f'- {ep.name} = {ep.value}') for ep in discovered_plugins if discovered_plugins]"
+          echo "Attempting direct import..."
+          python -c "try: from mkdocs_static_i18n.plugin import I18n; print('OK: mkdocs_static_i18n imported successfully.') except ImportError as e: print(f'FAIL: Could not import mkdocs_static_i18n: {e}'); sys.exit(1)"
+
+      # Шаг 5 (ИЗМЕНЕН): Сборка сайта (отдельно от деплоя)
+      - name: Build MkDocs site
+        run: python -m mkdocs build --verbose --clean
+        # Если проблема в загрузке плагина, ошибка должна произойти здесь
+
+      # Шаг 6 (ИЗМЕНЕН): Деплой на GitHub Pages (только если сборка прошла успешно)
+      - name: Deploy to GitHub Pages
+        id: deployment # Добавляем ID для получения URL
+        run: python -m mkdocs gh-deploy --force --clean --verbose
+        # Этот шаг выполнится, только если 'Build MkDocs site' завершился без ошибок
