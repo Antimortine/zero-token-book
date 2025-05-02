@@ -1,5 +1,3 @@
-**Chapter 1: Echo in the Console (Scene 1 Draft)**
-
 ...A sharp, demanding ring at the door tore through the silence of the cocoon where he existed. Alex jumped as if shocked. His fingers froze over the keys. His heart plummeted, starting to pound faster. Anxiety, always lurking somewhere at the back of his mind, instantly surged, flooding everything. *Who is it? The delivery? Ah yes, the food.*
 
 He forced himself to get up. His legs felt leaden. On the way to the door, he fumbled frantically for his smartphone on the table. He unlocked the screen, opening the delivery app. *Just show the code quickly. No talking.* As he walked, he mentally rehearsed the script: open the door a crack, silently present the phone with the order code, grab the package, close it. *No cash exchange, no small talk.* But even this simple sequence of actions felt like climbing Everest.
