@@ -1,25 +1,18 @@
+# Site information (Default language - Russian)
 site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
-nav:
-  - 'Введение': 'ru/index.md'
-  - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
+site_url: "https://Antimortine.github.io/zero-token-book" # URL for the root/default language (RU)
+site_author: "Antimortine"
+site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
 
-plugins:
-  - search
-  - i18n: # Используем имя 'i18n'
-      languages:
-        - locale: ru
-          name: Русский
-          default: true
-          build: true
-        - locale: en
-          name: English
-          build: true
-      default_language: ru
-      docs_structure: folder
-      # reconfigure_material: true # Пока уберем
+# Repository info
+repo_url: "https://github.com/Antimortine/zero-token-book/"
+repo_name: "zero-token-book"
+edit_uri: "" # Disable edit button
 
+# Theme Configuration (Material for MkDocs)
 theme:
   name: material
+  # Default language for the theme UI (will be overridden by the plugin)
   language: ru
   palette:
     scheme: slate
@@ -38,7 +31,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  # favicon: assets/favicon.png # Define favicon path if needed
 
+# Markdown Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -53,10 +48,63 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-repo_url: "https://github.com/Antimortine/zero-token-book/"
-repo_name: "zero-token-book"
-edit_uri: ""
+# Plugins Configuration
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: ru
+          name: Русский 
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+      # default_language: ru
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_navigation: true
 
-site_url: "https://Antimortine.github.io/zero-token-book"
-site_author: "Antimortine"
-site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
+# Language specific configurations
+languages:
+  # Russian configuration
+  ru:
+    site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
+    site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
+    nav:
+      - 'Введение': 'ru/index.md'
+      - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
+      - 'Глава 2: Тревожные Запросы': 'ru/Глава 2_ Тревожные Запросы.md'
+      - 'Глава 3: Поврежденные Данные': 'ru/Глава 3_ Поврежденные Данные.md'
+      - 'Глава 4: Ограниченный Доступ': 'ru/Глава 4_ Ограниченный Доступ.md'
+      - 'Глава 5: Отравленный Код': 'ru/Глава 5_ Отравленный Код.md'
+      - 'Глава 6: Ускользающий Контроль': 'ru/Глава 6_ Ускользающий Контроль.md'
+      - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'ru/Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
+      - 'Глава 7: Письмо': 'ru/Глава 7_ Письмо.md'
+
+  # English configuration
+  en:
+    site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller"
+    site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret."
+    nav:
+      - 'Introduction': 'en/index.md'
+      - 'Chapter 1: Echo in the Console': 'en/Chapter 1_ Echo in the Console.md'
+      # - 'Chapter 2: Troubling Requests': 'en/Chapter 2_ Troubling Requests.md'
+      # - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
+      # - 'Chapter 4: Access Denied': 'en/Chapter 4_ Access Denied.md'
+      # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
+      # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
+      # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
+      # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
+
+# Extra configuration for the Material theme's language switcher
+extra:
+  alternate:
+    # Russian version link
+    - name: Русский
+      link: /zero-token-book/
+      lang: ru
+    # English version link
+    - name: English
+      link: /zero-token-book/en/
+      lang: en
