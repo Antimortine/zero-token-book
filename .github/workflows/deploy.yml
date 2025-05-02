@@ -26,5 +26,13 @@ jobs:
           python-version: 3.x
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Verify Installation # Добавим шаг проверки
+        run: |
+          pip show mkdocs-static-i18n # Убедимся, что пакет виден pip
+          python -m mkdocs --version # Проверим версию mkdocs
       - name: Build and Deploy
-        run: mkdocs gh-deploy --force --clean --verbose
+        run: |
+          python -m mkdocs gh-deploy --force --clean --verbose
+          # Или найти путь к mkdocs и использовать его
+          # /opt/hostedtoolcache/Python/3.x.x/x64/bin/mkdocs gh-deploy --force --clean --verbose
+
