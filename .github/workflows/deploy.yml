@@ -4,70 +4,76 @@ name: Deploy MkDocs site to GitHub Pages
 on:
   push:
     branches:
-      - master # Или 'main', в зависимости от твоей основной ветки
+      - master # Или 'main', если это твоя основная ветка
 
-# Настройки прав доступа для GitHub Actions
 permissions:
-  contents: write # Необходимо для checkout и gh-deploy
-  pages: write      # Необходимо для деплоя на GitHub Pages
-  id-token: write   # Необходимо для деплоя на GitHub Pages
+  contents: write
+  pages: write
+  id-token: write
 
-# Настройки параллелизма, чтобы избежать гонки при частых пушах
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
   deploy:
-    # Настройка окружения для деплоя на GitHub Pages
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # URL будет доступен после деплоя
-    runs-on: ubuntu-latest # Используем последнюю Ubuntu
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
 
     steps:
-      # Шаг 1: Получение кода из репозитория
+      # Шаг 1: Checkout code с опциями для очистки
       - name: Checkout code
-        uses: actions/checkout@v4 # Используем последнюю версию action
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Получить всю историю, может помочь с кэшем
+          clean: true    # Явно очистить рабочую директорию перед checkout
 
-      # Шаг 2: Настройка Python
+      # Шаг 2 (НОВЫЙ): Вывод содержимого mkdocs.yml для отладки
+      - name: Display mkdocs.yml content
+        run: |
+          echo "--- Content of mkdocs.yml used by runner ---"
+          cat mkdocs.yml
+          echo "--- End of mkdocs.yml content ---"
+
+      # Шаг 3: Настройка Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11' # Используем Python 3.11 для лучшей совместимости
+          python-version: '3.11' # Оставляем Python 3.11
 
-      # Шаг 3: Установка зависимостей из requirements.txt
+      # Шаг 4: Установка зависимостей
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Шаг 4 (НОВЫЙ): Проверка регистрации Entry Point плагина
+      # Шаг 5: Проверка Entry Points и импорта плагина
       - name: Check MkDocs Plugin Entry Points and Import
         run: |
           echo "--- Checking Entry Points ---"
           python -c "import sys; from importlib.metadata import entry_points; discovered_plugins = entry_points(group='mkdocs.plugins'); print('Found entry points:') if discovered_plugins else print('No entry points found.'); [print(f'- {ep.name} = {ep.value}') for ep in discovered_plugins if discovered_plugins]"
-          
           echo "--- Attempting Direct Import ---"
-          # Выносим проверку импорта в отдельный, более читаемый блок
           python - <<EOF
           import sys
           try:
               from mkdocs_static_i18n.plugin import I18n
               print("OK: mkdocs_static_i18n imported successfully.")
-              sys.exit(0) # Успешный выход
+              sys.exit(0)
           except ImportError as e:
               print(f"FAIL: Could not import mkdocs_static_i18n: {e}")
-              sys.exit(1) # Выход с ошибкой
+              sys.exit(1)
           except Exception as e_gen:
               print(f"FAIL: General error during import attempt: {e_gen}")
-              sys.exit(1) # Выход с ошибкой
+              sys.exit(1)
           EOF
-      # Шаг 5 (ИЗМЕНЕН): Сборка сайта (отдельно от деплоя)
+
+      # Шаг 6: Сборка сайта
       - name: Build MkDocs site
         run: python -m mkdocs build --verbose --clean
-        # Если проблема в загрузке плагина, ошибка должна произойти здесь
+        # Проверяем, возникает ли ошибка здесь
 
-      # Шаг 6 (ИЗМЕНЕН): Деплой на GitHub Pages (только если сборка прошла успешно)
+      # Шаг 7: Деплой на GitHub Pages
       - name: Deploy to GitHub Pages
-        id: deployment # Добавляем ID для получения URL
+        id: deployment
         run: python -m mkdocs gh-deploy --force --clean --verbose
-        # Этот шаг выполнится, только если 'Build MkDocs site' завершился без ошибок
+        # Выполняется, только если сборка прошла успешно
