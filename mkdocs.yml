@@ -1,18 +1,17 @@
 # Site information (Default language - Russian)
 site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
-site_url: "https://Antimortine.github.io/zero-token-book" # URL for the root/default language (RU)
+site_url: "https://Antimortine.github.io/zero-token-book"
 site_author: "Antimortine"
 site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
 
 # Repository info
 repo_url: "https://github.com/Antimortine/zero-token-book/"
 repo_name: "zero-token-book"
-edit_uri: "" # Disable edit button
+edit_uri: ""
 
-# Theme Configuration (Material for MkDocs)
+# Theme Configuration
 theme:
   name: material
-  # Default language for the theme UI (will be overridden by the plugin)
   language: ru
   palette:
     scheme: slate
@@ -31,7 +30,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  # favicon: assets/favicon.png # Define favicon path if needed
 
 # Markdown Extensions
 markdown_extensions:
@@ -48,65 +46,33 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# Plugins Configuration
+# Plugins Configuration (Упрощено!)
 plugins:
-  - search # Built-in search plugin
+  - search
   - static-i18n:
-      # Define the languages you want to build
+      # Оставляем только базовые настройки плагина для теста
       languages:
-        - ru # Default language
+        - ru
         - en
-      # The default language is the one served at the root site_url
       default_language: ru
-      # Tell the plugin that your docs files are structured in per-language folders
-      docs_structure: folder # IMPORTANT: Use 'folder' structure
-      # Automatically configure the Material theme's language features
+      docs_structure: folder
       reconfigure_material: true
-      # Use the language specific navigation if defined below
-      reconfigure_navigation: true
-      # Define the build root directory (optional, default is 'site')
-      # build_dir: site
+      # reconfigure_navigation: true # Временно отключено
 
-# Language specific configurations
-languages:
-  # Russian configuration (inherits defaults)
-  ru:
-    nav:
-      - 'Введение': 'ru/index.md'
-      - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
-      - 'Глава 2: Тревожные Запросы': 'ru/Глава 2_ Тревожные Запросы.md'
-      - 'Глава 3: Поврежденные Данные': 'ru/Глава 3_ Поврежденные Данные.md'
-      - 'Глава 4: Ограниченный Доступ': 'ru/Глава 4_ Ограниченный Доступ.md'
-      - 'Глава 5: Отравленный Код': 'ru/Глава 5_ Отравленный Код.md'
-      - 'Глава 6: Ускользающий Контроль': 'ru/Глава 6_ Ускользающий Контроль.md'
-      - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'ru/Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
-      - 'Глава 7: Письмо': 'ru/Глава 7_ Письмо.md'
-      # ... add other Russian chapters here ...
+# Navigation (Временно простая, для одного языка)
+nav:
+  - 'Введение': 'ru/index.md'
+  - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
+  # Добавь сюда еще пару глав из ru/ для теста
 
-  # English configuration (overrides defaults)
-  en:
-    site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller" # English site name
-    site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret." # English description
-    nav:
-      - 'Introduction': 'en/index.md' # Path relative to docs/
-      - 'Chapter 1: Echo in the Console': 'en/Chapter 1_ Echo in the Console.md' # Assumes you rename the file
-      # - 'Chapter 2: Troubling Requests': 'en/Chapter 2_ Troubling Requests.md'
-      # - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
-      # - 'Chapter 4: Access Denied': 'en/Chapter 4_ Access Denied.md'
-      # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
-      # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
-      # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
-      # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
-      # ... add other English chapters here, assuming files are in docs/en/ ...
+# Секции languages: и extra: ПОЛНОСТЬЮ УБРАНЫ/ЗАКОММЕНТИРОВАНЫ для этого теста
+# languages:
+#   ru:
+#     nav: ...
+#   en:
+#     site_name: ...
+#     site_description: ...
+#     nav: ...
 
-# Extra configuration for the Material theme's language switcher
-extra:
-  alternate:
-    # Russian version link
-    - name: Русский
-      link: /zero-token-book/ # Link to the root (default language)
-      lang: ru
-    # English version link
-    - name: English
-      link: /zero-token-book/en/ # Link to the /en/ subdirectory
-      lang: en
+# extra:
+#   alternate: ...
