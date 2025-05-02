@@ -67,6 +67,8 @@ plugins:
             - 'Глава 6: Ускользающий Контроль': 'ru/Глава 6_ Ускользающий Контроль.md'
             - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'ru/Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
             - 'Глава 7: Письмо': 'ru/Глава 7_ Письмо.md'
+          site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
+          site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
         - locale: en
           name: English
           build: true
@@ -80,24 +82,13 @@ plugins:
             # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
             # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
             # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
+          site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller"
+          site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret."
       # default_language: ru
       docs_structure: folder
       fallback_to_default: false
       reconfigure_material: true
       reconfigure_navigation: true
-
-# Language specific configurations
-languages:
-  # Russian configuration
-  ru:
-    site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
-    site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
-
-  # English configuration
-  en:
-    site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller"
-    site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret."
-
 
 # Extra configuration for the Material theme's language switcher
 extra:
