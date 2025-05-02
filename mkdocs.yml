@@ -57,9 +57,29 @@ plugins:
           name: Русский 
           default: true
           build: true
+          nav:
+            - 'Введение': 'ru/index.md'
+            - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
+            - 'Глава 2: Тревожные Запросы': 'ru/Глава 2_ Тревожные Запросы.md'
+            - 'Глава 3: Поврежденные Данные': 'ru/Глава 3_ Поврежденные Данные.md'
+            - 'Глава 4: Ограниченный Доступ': 'ru/Глава 4_ Ограниченный Доступ.md'
+            - 'Глава 5: Отравленный Код': 'ru/Глава 5_ Отравленный Код.md'
+            - 'Глава 6: Ускользающий Контроль': 'ru/Глава 6_ Ускользающий Контроль.md'
+            - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'ru/Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
+            - 'Глава 7: Письмо': 'ru/Глава 7_ Письмо.md'
         - locale: en
           name: English
           build: true
+          nav:
+            - 'Introduction': 'en/index.md'
+            - 'Chapter 1: Echo in the Console': 'en/Chapter 1_ Echo in the Console.md'
+            # - 'Chapter 2: Troubling Requests': 'en/Chapter 2_ Troubling Requests.md'
+            # - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
+            # - 'Chapter 4: Access Denied': 'en/Chapter 4_ Access Denied.md'
+            # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
+            # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
+            # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
+            # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
       # default_language: ru
       docs_structure: folder
       fallback_to_default: false
@@ -72,31 +92,12 @@ languages:
   ru:
     site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
     site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
-    nav:
-      - 'Введение': 'ru/index.md'
-      - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
-      - 'Глава 2: Тревожные Запросы': 'ru/Глава 2_ Тревожные Запросы.md'
-      - 'Глава 3: Поврежденные Данные': 'ru/Глава 3_ Поврежденные Данные.md'
-      - 'Глава 4: Ограниченный Доступ': 'ru/Глава 4_ Ограниченный Доступ.md'
-      - 'Глава 5: Отравленный Код': 'ru/Глава 5_ Отравленный Код.md'
-      - 'Глава 6: Ускользающий Контроль': 'ru/Глава 6_ Ускользающий Контроль.md'
-      - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'ru/Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
-      - 'Глава 7: Письмо': 'ru/Глава 7_ Письмо.md'
 
   # English configuration
   en:
     site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller"
     site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret."
-    nav:
-      - 'Introduction': 'en/index.md'
-      - 'Chapter 1: Echo in the Console': 'en/Chapter 1_ Echo in the Console.md'
-      # - 'Chapter 2: Troubling Requests': 'en/Chapter 2_ Troubling Requests.md'
-      # - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
-      # - 'Chapter 4: Access Denied': 'en/Chapter 4_ Access Denied.md'
-      # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
-      # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
-      # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
-      # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
+
 
 # Extra configuration for the Material theme's language switcher
 extra:
