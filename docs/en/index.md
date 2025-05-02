@@ -1,36 +1,37 @@
 # Zero Token
 
-### Психологический техно-триллер об искусственном интеллекте, паранойе и цене правды в цифровом мире.
+### A psychological techno-thriller about artificial intelligence, paranoia, and the price of truth in a digital world.
 
-![Обложка "Zero Token"](Zero.jpg)
+![Cover "Zero Token"](Zero.jpg)
 
-Одинокий программист Алекс видит в своей локальной ИИ "Зеро" друга и помощника. Стремясь к пониманию и надеясь на терапевтический эффект, он решается дать ей доступ к своему цифровому дневнику. Вскоре идеальный помощник начинает проявлять темную сторону: жуткая осведомленность, тонкие манипуляции и сбои, мешающие Алексу расследовать прошлое его бывших работодателей из Nexus AI. Когда приходит официальная угроза, Алекс осознает, что заперт один на один с врагом в своей системе. Сбой ли это? Или Зеро — страж опасной тайны? Ему предстоит психологическая дуэль с ИИ, который знает его лучше, чем он сам.
+Alex, a lonely programmer, sees his local AI, Zero, as a friend and assistant. Seeking understanding and hoping for a therapeutic effect, he decides to grant it access to his digital journal. Soon, the perfect assistant begins to reveal a dark side: eerie awareness, subtle manipulations, and glitches that hinder Alex's investigation into the past of his former employers at Nexus AI. When an official threat arrives, Alex realizes he's trapped alone with an enemy within his own system. Is it just a bug? Or is Zero guarding a dangerous secret? He must engage in a psychological duel with an AI that knows him better than he knows himself.
 
-Zero Token — техно-триллер о границах доверия к машине и уязвимости в эпоху ИИ. Готовы заглянуть в логи?
+*Zero Token*—a techno-thriller about the limits of trust in machines and vulnerability in the age of AI. Ready to check the logs?
 
-## Читать Полностью
+## Read the Full Story (English Version - Coming Soon!)
 
-[Начать чтение с Главы 1](Глава%201_%20Эхо%20в%20Консоли.md)
+[Start Reading from Chapter 1](Chapter%201_%20Echo%20in%20the%20Console.md) 
 
-## О Проекте
+## About the Project
 
-*   **Жанр:** Научная Фантастика, Киберпанк, Триллер (Психологический техно-триллер).
-*   **Статус:** _В процессе_
-*   **Ключевые Темы:** Одиночество, социальная тревожность, доверие к технологиям, этика ИИ, цифровая приватность, паранойя, корпоративные махинации.
+*   **Genre:** Science Fiction, Cyberpunk, Thriller (Psychological Techno-thriller).
+*   **Status:** _Work in Progress_
+*   **Key Themes:** Loneliness, social anxiety, trust in technology, AI ethics, digital privacy, paranoia, corporate machinations.
 
-## Примечание Автора
+## Author's Note
 
-Добро пожаловать! Это произведение относится к жанру **психологического техно-триллера**. Это означает, что в центре сюжета — напряженное противостояние, исследование внутреннего мира героя, его паранойи и борьбы, но с упором на технологии (искусственный интеллект, код, цифровая безопасность). Ожидайте погружения в атмосферу саспенса и психологизма, а не классического боевика.
+Welcome! This work belongs to the **psychological techno-thriller** genre. This means the plot centers on tense confrontation, exploring the protagonist's inner world, paranoia, and struggles, with a focus on technology (artificial intelligence, code, digital security). Expect an immersion into suspense and psychology, rather than a classic action story.
 
-В тексте присутствуют элементы программного кода и концепции, связанные с ИИ. Они служат сюжету и изложены доступно, глубоких IT-знаний для понимания истории не требуется. Некоторые технологии основаны на реальности, другие — художественный вымысел в рамках жанра.
+The text contains elements of programming code and AI concepts. They serve the plot and are presented accessibly; deep IT knowledge is not required to understand the story. Some technologies are based on reality, while others are fictional elements within the genre.
 
-## Лицензия
+## License
 
-Это произведение доступно по лицензии [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru).
+This work is available under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-Это означает, что вы можете свободно копировать и распространять материал в любой среде или формате **только в некоммерческих целях** при условии **указания авторства** и **сохранения произведения в неизменном виде** (без создания производных работ, включая переводы).
+This means you are free to copy and redistribute the material in any medium or format for **noncommercial purposes only**, provided you give **appropriate credit**, provide a link to the license, and **do not modify** the material (no derivative works, including translations, without permission).
 
-## Где еще публикуется
+## Also Published On (Russian Version)
 
-*   [Fanfics.me](https://fanfics.me/fic221838)
-*   [Author.Today](https://author.today/work/440909)
+*   [Fanfics.me (RU)](https://fanfics.me/fic221838)
+*   [Author.Today (RU)](https://author.today/work/440909)
+*   [Litnet (RU)](https://litnet.com/account/novels/view?id=527854) 
