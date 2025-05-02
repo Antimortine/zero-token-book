@@ -1,71 +1,112 @@
-# Информация о сайте
+# Site information (Default language - Russian)
 site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
-site_url: "https://Antimortine.github.io/zero-token-book"
+site_url: "https://Antimortine.github.io/zero-token-book" # URL for the root/default language (RU)
 site_author: "Antimortine"
 site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
 
-# Ссылка на репозиторий (отобразится иконка GitHub)
+# Repository info
 repo_url: "https://github.com/Antimortine/zero-token-book/"
 repo_name: "zero-token-book"
-edit_uri: ""
+edit_uri: "" # Disable edit button
 
-# Конфигурация темы Material
+# Theme Configuration (Material for MkDocs)
 theme:
   name: material
-  language: ru # Язык интерфейса темы (кнопки, поиск и т.д.)
+  # Default language for the theme UI (will be overridden by the plugin)
+  language: ru
   palette:
-    # Цветовая схема
-    scheme: slate   # Темная тема
-    primary: teal   # Основной цвет акцентов
-    accent: purple  # Второстепенный цвет акцентов
+    scheme: slate
+    primary: teal
+    accent: purple
   features:
-    # - navigation.tabs # Показать разделы верхнего уровня как вкладки
-    # - navigation.tabs.sticky # Сделать вкладки "липкими" при прокрутке
-    - navigation.sections # Группировка страниц в боковой панели
-    - navigation.expand # Автоматически разворачивать активные разделы
-    - navigation.top # Кнопка "Наверх"
-    - navigation.footer  # Это может включать нижнюю навигацию Next/Prev
-    - search.suggest # Подсказки при поиске
-    - search.highlight # Подсветка найденных слов
-    - content.code.annotate # Возможность добавлять аннотации к коду
-    - content.code.copy # Кнопка копирования для блоков кода
-    - toc.integrate # Интегрировать оглавление страницы в боковую панель
-  # Настройки шрифтов (опционально)
-  # font:
-  text: Roboto
-  code: Roboto Mono
-  # Иконки и логотип (опционально)
-  # logo: assets/logo.svg
-  # favicon: assets/favicon.png
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # favicon: assets/favicon.png # Define favicon path if needed
 
-# Расширения Markdown (очень важно для функциональности)
+# Markdown Extensions
 markdown_extensions:
-  - admonition # Блоки Note, Warning, Tip и т.д. (!!! note "Заголовок")
-  - pymdownx.details # Сворачиваемые блоки (???+ note "Заголовок")
-  - pymdownx.superfences # Улучшенные блоки кода (позволяет вкладывать блоки)
-  - pymdownx.highlight: # Подсветка синтаксиса
-      anchor_linenums: true # Ссылки на номера строк
-      line_spans: __span # Обертка строк для стилизации
-      pygments_lang_class: true # Добавлять класс языка к блоку
-  - pymdownx.inlinehilite # Подсветка кода внутри строки (`code`)
-  - pymdownx.snippets # Вставка контента из других файлов
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - toc:
-      permalink: true # Добавлять якорные ссылки к заголовкам (¶)
-      toc_depth: 3 # Глубина заголовков в оглавлении на странице (H1-H3)
+      permalink: true
+      toc_depth: 3
 
-# Навигация
-nav:
-  - 'Введение': 'index.md'
-  - 'Глава 1: Эхо в Консоли': 'Глава 1_ Эхо в Консоли.md'
-  - 'Глава 2: Тревожные Запросы': 'Глава 2_ Тревожные Запросы.md'
-  - 'Глава 3: Поврежденные Данные': 'Глава 3_ Поврежденные Данные.md'
-  - 'Глава 4: Ограниченный Доступ': 'Глава 4_ Ограниченный Доступ.md'
-  - 'Глава 5: Отравленный Код': 'Глава 5_ Отравленный Код.md'
-  - 'Глава 6: Ускользающий Контроль': 'Глава 6_ Ускользающий Контроль.md'
-  - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
-  - 'Глава 7: Письмо': 'Глава 7_ Письмо.md'
+# Plugins Configuration
+plugins:
+  - search # Built-in search plugin
+  - static-i18n:
+      # Define the languages you want to build
+      languages:
+        - ru # Default language
+        - en
+      # The default language is the one served at the root site_url
+      default_language: ru
+      # Tell the plugin that your docs files are structured in per-language folders
+      docs_structure: folder # IMPORTANT: Use 'folder' structure
+      # Automatically configure the Material theme's language features
+      reconfigure_material: true
+      # Use the language specific navigation if defined below
+      reconfigure_navigation: true
+      # Define the build root directory (optional, default is 'site')
+      # build_dir: site
 
+# Language specific configurations
+languages:
+  # Russian configuration (inherits defaults)
+  ru:
+    nav:
+      - 'Введение': 'ru/index.md'
+      - 'Глава 1: Эхо в Консоли': 'ru/Глава 1_ Эхо в Консоли.md'
+      - 'Глава 2: Тревожные Запросы': 'ru/Глава 2_ Тревожные Запросы.md'
+      - 'Глава 3: Поврежденные Данные': 'ru/Глава 3_ Поврежденные Данные.md'
+      - 'Глава 4: Ограниченный Доступ': 'ru/Глава 4_ Ограниченный Доступ.md'
+      - 'Глава 5: Отравленный Код': 'ru/Глава 5_ Отравленный Код.md'
+      - 'Глава 6: Ускользающий Контроль': 'ru/Глава 6_ Ускользающий Контроль.md'
+      - 'Глава 6.5: Интерлюдия: Путь Предупреждения': 'ru/Глава 6.5_ Интерлюдия_ Путь Предупреждения.md'
+      - 'Глава 7: Письмо': 'ru/Глава 7_ Письмо.md'
+      # ... add other Russian chapters here ...
 
-# Плагины (если нужны дополнительные функции, например поиск)
-# plugins:
-#   - search # Встроенный поиск (уже включен в Material)
+  # English configuration (overrides defaults)
+  en:
+    site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller" # English site name
+    site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret." # English description
+    nav:
+      - 'Introduction': 'en/index.md' # Path relative to docs/
+      - 'Chapter 1: Echo in the Console': 'en/Chapter 1_ Echo in the Console.md' # Assumes you rename the file
+      # - 'Chapter 2: Troubling Requests': 'en/Chapter 2_ Troubling Requests.md'
+      # - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
+      # - 'Chapter 4: Access Denied': 'en/Chapter 4_ Access Denied.md'
+      # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
+      # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
+      # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
+      # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
+      # ... add other English chapters here, assuming files are in docs/en/ ...
+
+# Extra configuration for the Material theme's language switcher
+extra:
+  alternate:
+    # Russian version link
+    - name: Русский
+      link: /zero-token-book/ # Link to the root (default language)
+      lang: ru
+    # English version link
+    - name: English
+      link: /zero-token-book/en/ # Link to the /en/ subdirectory
+      lang: en
