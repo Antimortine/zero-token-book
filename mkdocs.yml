@@ -46,11 +46,17 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# Plugins Configuration - Extremely Simplified i18n block
+# Plugins Configuration - Minimal REQUIRED i18n config
 plugins:
   - search
-  - i18n: {} # <-- Provide an EMPTY dictionary here
+  - i18n: # Используем имя 'i18n'
+      # Возвращаем ОБЯЗАТЕЛЬНЫЕ опции:
+      languages: # Правильный формат - список
+        - ru
+        - en
+      default_language: ru
+      docs_structure: folder # Указываем структуру папок
 
 # NO external languages: section
 # NO extra: section
-# NO nav: section (MkDocs will build nav from file structure if 'nav' is omitted)
+# NO nav: section (MkDocs will build nav from file structure)
