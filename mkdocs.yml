@@ -1,15 +1,12 @@
-# Site information (Default language - Russian)
 site_name: "Zero Token (роман) - Antimortine | Психологический техно-триллер"
 site_url: "https://Antimortine.github.io/zero-token-book"
 site_author: "Antimortine"
 site_description: "Читайте онлайн роман Zero Token (Автор: Antimortine). Психологический техно-триллер об одиноком программисте Алексе, его ИИ-помощнике и опасной тайне Nexus AI."
 
-# Repository info
 repo_url: "https://github.com/Antimortine/zero-token-book/"
 repo_name: "zero-token-book"
 edit_uri: ""
 
-# Theme Configuration
 theme:
   name: material
   language: ru
@@ -31,7 +28,6 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-# Markdown Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -46,16 +42,10 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
-# Plugins Configuration - Minimal REQUIRED i18n config
+# Plugins Configuration - Explicitly listing plugins WITHOUT inline config for i18n
 plugins:
   - search
-  - i18n: # Используем имя 'i18n'
-      # Возвращаем ОБЯЗАТЕЛЬНЫЕ опции:
-      languages: # Правильный формат - список
-        - ru
-        - en
-      default_language: ru
-      docs_structure: folder # Указываем структуру папок
+  - i18n # Just the name
 
 # NO external languages: section
 # NO extra: section
