@@ -100,9 +100,13 @@ Feedback and constructive criticism are welcome! Feel free to open an issue in t
 
   
 
-## Also Published On (Russian Version)
+## Also Published On
 
-  
+* [GitHub Pages (EN)](https://antimortine.github.io/zero-token-book/en/)
+
+* [Royal Road (EN)](https://www.royalroad.com/fiction/115162/zero-token)
+
+* [GitHub Pages (RU)](https://antimortine.github.io/zero-token-book/)
 
 * [Fanfics.me (RU)](https://fanfics.me/fic221838)
 
