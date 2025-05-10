@@ -73,4 +73,10 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Antimortine.github.io/zero-token-book/en/Chapter%202_%20Disturbing%20Queries/"/>
     </url>
+    <url>
+        <loc>https://Antimortine.github.io/zero-token-book/en/Chapter%203_%20Corrupted%20Data/</loc>
+        <lastmod>2025-05-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Antimortine.github.io/zero-token-book/en/Chapter%203_%20Corrupted%20Data/"/>
+    </url>
 </urlset>
