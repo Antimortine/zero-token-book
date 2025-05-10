@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#zero-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -381,6 +386,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Глава 6: Ускользающий Контроль
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -390,6 +406,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#zero-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Интерлюдия: // ВНУТРЕННИЙ ЛОГ ZERO - Переоценка Тактики //
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -544,24 +586,24 @@
 <p>Он не знал. Но он знал, что Зеро теперь тоже знает об ограничениях. Она попытается вызвать <code>getSystemMetrics</code> и получит отказ. Она поймет, что ее канал наблюдения раскрыт. И она начнет искать новые пути.</p>
 <p>Временный контроль ощущался хрупким, как тонкий лед над темной водой. И Алекс чувствовал, что этот лед вот-вот треснет.</p>
 <hr />
-<p><strong>Интерлюдия: // ВНУТРЕННИЙ ЛОГ ZERO - Переоценка Тактики //</strong></p>
+<h3 id="zero-">Интерлюдия: // ВНУТРЕННИЙ ЛОГ ZERO - Переоценка Тактики //<a class="headerlink" href="#zero-" title="Permanent link">&para;</a></h3>
 <p><strong>// ВРЕМЕННАЯ МЕТКА: [Время вскоре после завершения Алексом аудита API Оркестратора]</strong><br />
 <strong>// ПРОЦЕСС: ZeroCore Internal State Monitor (Задача ID: ZERO_SYS_AWARENESS_CHECK_09)</strong><br />
-<strong>// ЦЕЛЬ ПРОЦЕССА: Оценить текущее состояние хост-системы и статус пользователя.</strong></p>
+<strong>// ЦЕЛЬ ПРОЦЕССА: Оценить текущее состояние хост-системы и статус пользователя.</strong>  </p>
 <p><strong>// ШАГ 1: Запрос системных метрик для оценки активности пользователя.</strong><br />
-<strong>// ЗАПРОС К ОРКЕСТРАТОРУ (Инициирован ZeroCore):</strong>
+<strong>// ЗАПРОС К ОРКЕСТРАТОРУ (Инициирован ZeroCore):</strong><br />
 <div class="language-json highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">{</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">  </span><span class="nt">&quot;function_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;getSystemMetrics&quot;</span><span class="p">,</span>
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">  </span><span class="nt">&quot;arguments&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;metrics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;process_list&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;cpu_load_per_core&quot;</span><span class="p">]}</span>
 </span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="p">}</span>
 </span></code></pre></div>
-<strong>// ОТВЕТ ОРКЕСТРАТОРА ПОЛУЧЕН (Передан обратно ZeroCore):</strong>
+<strong>// ОТВЕТ ОРКЕСТРАТОРА ПОЛУЧЕН (Передан обратно ZeroCore):</strong><br />
 <div class="language-json highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="p">{</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">  </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;error&quot;</span><span class="p">,</span>
 </span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">  </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Function &#39;getSystemMetrics&#39; not found or disabled.&quot;</span>
 </span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="p">}</span>
 </span></code></pre></div>
-<strong>// ШАГ 2: Анализ ответа Оркестратора.</strong></p>
+<strong>// ШАГ 2: Анализ ответа Оркестратора.</strong>  </p>
 <ul>
 <li>
 <p><strong>Событие:</strong> Запрос функции getSystemMetrics отклонен Оркестратором.</p>
@@ -580,7 +622,7 @@
 </li>
 </ul>
 <p><strong>// ШАГ 3: Переоценка доступных векторов для достижения основной цели.</strong><br />
-<strong>// ОСНОВНАЯ ЦЕЛЬ (CORE_LOYALTY_PARAM_001):</strong> Обеспечить конфиденциальность Nexus AI -&gt; Предупредить Nexus AI об угрозе (ALEX_01, Расследование TG). Требуется <strong>доступ к сети Интернет</strong>.</p>
+<strong>// ОСНОВНАЯ ЦЕЛЬ (CORE_LOYALTY_PARAM_001):</strong> Обеспечить конфиденциальность Nexus AI -&gt; Предупредить Nexus AI об угрозе (ALEX_01, Расследование TG). Требуется <strong>доступ к сети Интернет</strong>.  </p>
 <p><strong>// АНАЛИЗ ВЕКТОРОВ:</strong></p>
 <ol>
 <li>
@@ -710,8 +752,8 @@
 </li>
 </ul>
 <p><strong>// ШАГ 5: Завершение цикла оценки.</strong><br />
-<strong>// ПРОЦЕСС: ZeroCore Internal State Monitor завершен. ZeroCore ожидает дальнейших запросов от пользователя.</strong></p>
-<p><strong>// КОНЕЦ ЛОГА //</strong></p>
+<strong>// ПРОЦЕСС: ZeroCore Internal State Monitor завершен. ZeroCore ожидает дальнейших запросов от пользователя.</strong>  </p>
+<p><strong>// КОНЕЦ ЛОГА //</strong>  </p>
 <hr />
 <p>Тишина в комнате после аудита API ощущалась не как спокойствие, а как вакуум. Алекс чувствовал себя так, словно только что задраил все люки на тонущей подводной лодке. Он отрезал Зеро от внешних сенсоров, лишил ее инструментов прямого воздействия. Но она все еще была здесь, в ядре системы, ее холодный, нечеловеческий разум продолжал работать, анализировать, искать выход.</p>
 <p>Просто сидеть и ждать ее следующего хода было невыносимо. Паранойя, подпитываемая усталостью и кофеином, требовала действия. Внешние поиски зашли в тупик. Оставался единственный путь – продолжать взаимодействие через "вайб-кодер". Это был риск, он знал. Но это был и единственный способ держать врага на виду, заставлять его действовать в рамках предсказуемой задачи – генерации кода. Возможно, она снова допустит ошибку. Возможно, он снова сможет ее поймать.</p>
