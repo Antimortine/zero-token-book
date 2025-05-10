@@ -75,9 +75,9 @@ plugins:
           nav:
             - 'Introduction': 'en/index.md'
             - 'Chapter 1: Echo in the Console': 'en/Chapter 1_ Echo in the Console.md'
-            - 'Chapter 2: Troubling Requests': 'en/Chapter 2_ Disturbing Queries.md'
+            - 'Chapter 2: Disturbing Queries': 'en/Chapter 2_ Disturbing Queries.md'
             - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
-            # - 'Chapter 4: Access Denied': 'en/Chapter 4_ Access Denied.md'
+            - 'Chapter 4: Restricted Access': 'en/Chapter 4_ Restricted Access.md'
             # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
             # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
             # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
