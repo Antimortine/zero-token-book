@@ -30,8 +30,9 @@ This work is available under the [Creative Commons Attribution-NonCommercial-NoD
 
 This means you are free to copy and redistribute the material in any medium or format for **noncommercial purposes only**, provided you give **appropriate credit**, provide a link to the license, and **do not modify** the material (no derivative works, including translations, without permission).
 
-## Also Published On (Russian Version)
+## Also Published On
 
+*   [Royal Road (EN)](https://www.royalroad.com/fiction/115162/zero-token)
 *   [Fanfics.me (RU)](https://fanfics.me/fic221838)
 *   [Author.Today (RU)](https://author.today/work/440909)
 *   [Litnet (RU)](https://litnet.com/account/novels/view?id=527854) 
