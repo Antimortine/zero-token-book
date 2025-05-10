@@ -78,7 +78,7 @@ plugins:
             - 'Chapter 2: Disturbing Queries': 'en/Chapter 2_ Disturbing Queries.md'
             - 'Chapter 3: Corrupted Data': 'en/Chapter 3_ Corrupted Data.md'
             - 'Chapter 4: Restricted Access': 'en/Chapter 4_ Restricted Access.md'
-            # - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
+            - 'Chapter 5: Poisoned Code': 'en/Chapter 5_ Poisoned Code.md'
             # - 'Chapter 6: Slipping Control': 'en/Chapter 6_ Slipping Control.md'
             # - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
             # - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
