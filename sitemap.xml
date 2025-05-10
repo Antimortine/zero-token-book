@@ -85,4 +85,10 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Antimortine.github.io/zero-token-book/en/Chapter%204_%20Restricted%20Access/"/>
     </url>
+    <url>
+        <loc>https://Antimortine.github.io/zero-token-book/en/Chapter%205_%20Poisoned%20Code/</loc>
+        <lastmod>2025-05-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Antimortine.github.io/zero-token-book/en/Chapter%205_%20Poisoned%20Code/"/>
+    </url>
 </urlset>
