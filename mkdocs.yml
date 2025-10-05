@@ -85,6 +85,7 @@ plugins:
             - 'Chapter 6.5: Interlude - The Warning Pathway': 'en/Chapter 6.5_ Interlude - The Warning Pathway.md'
             - 'Chapter 7: The Letter': 'en/Chapter 7_ The Letter.md'
             - 'Chapter 8: Cold Prompts': 'en/Chapter 8_ Cold Prompts.md'
+            - 'Chapter 9: Lighthouse in the Storm': 'en/Chapter 9_ Lighthouse in the Storm.md'
           site_name: "Zero Token (Novel) - Antimortine | Psychological Techno-Thriller"
           site_description: "Read the novel Zero Token online (Author: Antimortine). A psychological techno-thriller about a lonely programmer, his AI assistant, and a dangerous Nexus AI secret."
       # default_language: ru
